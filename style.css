@@ -1,0 +1,97 @@
+ body {
+            margin: 0;
+            }
+
+
+    ul  {
+               list-style-type: none;
+               margin: 0;
+               padding: 0;
+               background-color: #024659;
+               position: fixed;
+               width: 100%;
+               opacity: 0.9;
+            }
+
+    li {
+                text-align: center;
+                float: left;
+                width: 33.3%;
+            }
+            
+
+    li a {
+                
+                display: block;
+                color: white;
+                padding: 32px 50px;
+                text-decoration: none;
+                font-variant: small-caps;
+                font-size: 20px;
+            }
+            
+    .Hjem {
+                background-color: #057F8E;
+            }
+            
+            li a:hover {
+                background-color: #AFD0D9;
+            }
+
+footer {
+    padding-top: 1px;
+    color: #024659;
+    background-color: #AFD0D9;
+    float: left;
+    text-align: center; 
+    width: 100%;
+    margin-top: 1px;
+    height: auto;
+}
+
+
+.Kontakt {
+    float: left;
+    padding-right: 50px;
+}
+
+.Om {
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+}
+
+.overskrift {
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-variant: small-caps;
+    background-color: #057F8E;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 5px;
+}
+
+.irlandBilde {
+    width: 49.8%;
+}
+
+.lofotenBilde {
+    width: 49.8%;
+}
+
+
+/* Mobil */
+
+@media only screen and (max-width:1000px) {
+    .irlandBilde {
+        width: 100%;
+    }
+    
+    .lofotenBilde {
+        width: 100%;
+    }
+}
+
+

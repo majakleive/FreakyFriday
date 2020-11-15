@@ -81,6 +81,18 @@ footer {
     width: 49.8%;
 }
 
+.lofotenTekst {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.irlandTekst {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
 
 /* Mobil */
 
